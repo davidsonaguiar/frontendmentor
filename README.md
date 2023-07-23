@@ -10,7 +10,7 @@ Um componente de cartão de visualização de três colunas, projetado para forn
 ## [FAQ accordion card](/faq%20accordion%20card)
 Um cartão interativo estilo "acordeão" com perguntas frequentes e suas respectivas respostas, que podem ser expandidas ou contraídas.
 
-## [Interactive rating component](/interactive%20rating%20component)
+## [Interactive rating component](/Interactive%20rating%20component)
 Um componente de classificação interativo, permitindo que os usuários avaliem produtos ou serviços com uma interface intuitiva.
 
 ## [NFT preview card component](/nft%20preview%20card%20component)
