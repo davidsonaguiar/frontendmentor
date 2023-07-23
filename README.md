@@ -22,16 +22,16 @@ Um componente que exibe um resumo do pedido, incluindo detalhes do produto, pre�
 ## [Product preview card component](/Product%20preview%20card%20component)
 Um cartão de visualização de produto, destacando detalhes importantes do item, como imagem, preço, descrição breve e avaliações dos clientes.
 
-## [Profile card component](https://github.com/seu_usuario/frontend-mentor-projects/tree/main/profile-card-component)
+## [Profile card component](/Profile%20card%20component)
 Um componente que exibe o perfil de um usuário, mostrando sua foto, nome, cargo e links para suas redes sociais.
 
-## [QR code component](https://github.com/seu_usuario/frontend-mentor-projects/tree/main/qr-code-component)
+## [QR code component](/QR%20code%20component)
 Um componente que gera e exibe um código QR para uma determinada informação, tornando mais fácil compartilhá-la com outros dispositivos.
 
-## [Social proof section](https://github.com/seu_usuario/frontend-mentor-projects/tree/main/social-proof-section)
+## [Social proof section](/Social%20proof%20section)
 Uma seção que exibe depoimentos ou avaliações de clientes, ajudando a construir confiança e credibilidade para o produto ou serviço.
 
-## [Stats preview card component](https://github.com/seu_usuario/frontend-mentor-projects/tree/main/stats-preview-card-component)
+## [Stats preview card component](/Stats%20preview%20card%20component)
 Um cartão de visualização de estatísticas que destaca números importantes e apresenta informações visuais para facilitar a compreensão das métricas.
 
 Cada projeto foi construído utilizando boas práticas de desenvolvimento e design responsivo, garantindo que eles sejam acessíveis e funcionem de forma eficiente em diferentes dispositivos e tamanhos de tela.
