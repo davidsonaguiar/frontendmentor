@@ -8,13 +8,8 @@ Esta é uma solução para o [desafio do componente de classificação interativ
    - [O desafio](#o-desafio)
    - [Captura de tela](#captura-de-tela)
    - [Links](#links)
-- [Meu processo](#meu-processo)
-   - [Construído com](#construído-com)
-   - [O que aprendi](#o-que-aprendi)
-   - [Desenvolvimento contínuo](#desenvolvimento-contínuo)
-   - [Recursos úteis](#useful-resources)
+- [Construído com](#construído-com)
 - [Autor](#autor)
-- [Agradecimentos](#acknowledgments)
 
 ## Visão geral
 
@@ -40,23 +35,14 @@ Os usuários devem ser capazes de:
 - URL da solução: [JS](./main.js)
 - URL do site ao vivo: [CODEPEN](https://codepen.io/davidsonaguiar/full/VwdBMBe)
 
-## Meu processo
-
-### Construído com
+## Construído com
 
 - Marcação HTML5 semântica
 - Propriedades personalizadas CSS
 - Flexbox
+- JavaScript
 ## Autor
 
-- Website - [Adicione seu nome aqui](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
-
-**Observação: exclua esta observação e adicione/remova/edite as linhas acima com base nos links que deseja compartilhar.**
-
-## Agradecimentos
-
-É aqui que você pode dar uma gorjeta para qualquer pessoa que o ajudou neste projeto. Talvez você tenha trabalhado em equipe ou tenha se inspirado na solução de outra pessoa. Este é o lugar perfeito para dar-lhes algum crédito.
-
-**Observação: exclua esta observação e edite o conteúdo desta seção conforme necessário. Se você concluiu este desafio sozinho, sinta-se à vontade para excluir esta seção completamente.**
+- Website - [CODEPEN](https://codepen.io/davidsonaguiar)
+- Frontend Mentor - [@davidsonaguiar](https://www.frontendmentor.io/profile/davidsonaguiar)
+- Twitter - [@DavidsonAguiar5](https://twitter.com/DavidsonAguiar5)
