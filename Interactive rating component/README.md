@@ -35,7 +35,9 @@ Os usuários devem ser capazes de:
 
 ### Links
 
-- URL da solução: [GITHUB](./index.html)
+- URL da solução: [HTML](./index.html)
+- URL da solução: [CSS](./styles.css)
+- URL da solução: [JS](./main.js)
 - URL do site ao vivo: [CODEPEN](https://codepen.io/davidsonaguiar/full/VwdBMBe)
 
 ## Meu processo
