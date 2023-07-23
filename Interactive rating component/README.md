@@ -4,19 +4,17 @@ Esta é uma solução para o [desafio do componente de classificação interativ
 
 ## Índice
 
-- [Visão geral](#visão geral)
+- [Visão geral](#visão-geral)
    - [O desafio](#o-desafio)
-   - [Captura de tela](#captura de tela)
+   - [Captura de tela](#captura-de-tela)
    - [Links](#links)
 - [Meu processo](#meu-processo)
-   - [Construído com](#construído com)
+   - [Construído com](#construído-com)
    - [O que aprendi](#o-que-aprendi)
-   - [Desenvolvimento contínuo](#desenvolvimento contínuo)
+   - [Desenvolvimento contínuo](#desenvolvimento-contínuo)
    - [Recursos úteis](#useful-resources)
 - [Autor](#autor)
 - [Agradecimentos](#acknowledgments)
-
-**Observação: exclua esta observação e atualize o sumário com base nas seções que você mantém.**
 
 ## Visão geral
 
@@ -24,22 +22,16 @@ Esta é uma solução para o [desafio do componente de classificação interativ
 
 Os usuários devem ser capazes de:
 
-- Veja o layout ideal para o aplicativo, dependendo do tamanho da tela do dispositivo
-- Veja os estados de foco para todos os elementos interativos na página
-- Selecione e envie uma classificação numérica
-- Veja o estado do cartão "Obrigado" após enviar uma avaliação
+- Ver o layout ideal para o aplicativo, dependendo do tamanho da tela do dispositivo
+- Ver os estados de foco para todos os elementos interativos na página
+- Selecionar e enviar uma classificação numérica
+- Ver o estado do cartão "Obrigado" após enviar uma avaliação
 
 ### Captura de tela
 
-![](./captura de tela.jpg)
+![Imagem do projeto](./images/capture.png)
 
-Adicione uma captura de tela da sua solução. A maneira mais fácil de fazer isso é usar o Firefox para visualizar seu projeto, clicar com o botão direito do mouse na página e selecionar "Tirar uma captura de tela". Você pode escolher uma captura de tela de altura total ou cortada com base no tamanho da página. Se for muito longo, talvez seja melhor cortá-lo.
 
-Como alternativa, você pode usar uma ferramenta como [FireShot](https://getfireshot.com/) para tirar a captura de tela. O FireShot tem uma opção gratuita, então você não precisa comprá-lo.
-
-Em seguida, corte/otimize/edite sua imagem como quiser, adicione-a ao seu projeto e atualize o caminho do arquivo na imagem acima.
-
-**Observação: exclua esta observação e os parágrafos acima ao adicionar sua captura de tela. Se preferir não adicionar uma captura de tela, sinta-se à vontade para remover toda esta seção.**
 
 ### Links
 
