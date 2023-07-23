@@ -33,7 +33,7 @@ Os usuários devem ser capazes de:
 - URL da solução: [HTML](./index.html)
 - URL da solução: [CSS](./styles.css)
 - URL da solução: [JS](./main.js)
-- URL do site ao vivo: [CODEPEN](https://codepen.io/davidsonaguiar/full/VwdBMBe)
+- URL do desafio no ar: [CODEPEN](https://codepen.io/davidsonaguiar/full/VwdBMBe)
 
 ## Construído com
 
