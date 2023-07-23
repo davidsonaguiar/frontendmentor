@@ -35,7 +35,7 @@ Os usuários devem ser capazes de:
 
 ### Links
 
-- URL da solução: [GITHUB](/index.html)
+- URL da solução: [GITHUB](./index.html)
 - URL do site ao vivo: [CODEPEN](https://codepen.io/davidsonaguiar/full/VwdBMBe)
 
 ## Meu processo
@@ -45,51 +45,6 @@ Os usuários devem ser capazes de:
 - Marcação HTML5 semântica
 - Propriedades personalizadas CSS
 - Flexbox
-- Grade CSS
-- Fluxo de trabalho móvel primeiro
-- [React](https://reactjs.org/) - Biblioteca JS
-- [Next.js](https://nextjs.org/) - React framework
-- [Componentes estilizados](https://styled-components.com/) - Para estilos
-
-**Nota: Estes são apenas exemplos. Exclua esta nota e substitua a lista acima por suas próprias escolhas**
-
-### O que eu aprendi
-
-Use esta seção para recapitular alguns de seus principais aprendizados enquanto trabalhava neste projeto. Escrevê-los e fornecer amostras de código das áreas que você deseja destacar é uma ótima maneira de reforçar seu próprio conhecimento.
-
-Para ver como você pode adicionar trechos de código, veja abaixo:
-
-```html
-<h1>Algum código HTML do qual me orgulho</h1>
-```
-```css
-.proud-of-this-css {
-   cor: mamão chicote;
-}
-```
-```js
-const proudOfThisFunc = () => {
-   console.log('🎉')
-}
-```
-
-Se você quiser mais ajuda para escrever remarcações, recomendamos verificar [The Markdown Guide](https://www.markdownguide.org/) para saber mais.
-
-**Observação: exclua esta observação e o conteúdo desta seção e substitua por seus próprios aprendizados.**
-
-### Desenvolvimento contínuo
-
-Use esta seção para delinear as áreas nas quais você deseja continuar focando em projetos futuros. Podem ser conceitos com os quais você ainda não está totalmente confortável ou técnicas que você achou úteis e que deseja refinar e aperfeiçoar.
-
-**Observação: exclua esta observação e o conteúdo desta seção e substitua por seus próprios planos para o desenvolvimento contínuo.**
-
-### Recursos úteis
-
-- [Exemplo de recurso 1](https://www.example.com) - Isso me ajudou pelo motivo XYZ. Eu realmente gostei desse padrão e vou usá-lo daqui para frente.
-- [Exemplo de recurso 2](https://www.example.com) - Este é um artigo incrível que me ajudou a finalmente entender XYZ. Recomendo a todos que ainda estão aprendendo esse conceito.
-
-**Observação: exclua esta observação e substitua a lista acima pelos recursos que o ajudaram durante o desafio. Isso pode ser útil para qualquer pessoa que esteja visualizando sua solução ou para você mesmo quando olhar para trás neste projeto no futuro.**
-
 ## Autor
 
 - Website - [Adicione seu nome aqui](https://www.your-site.com)
