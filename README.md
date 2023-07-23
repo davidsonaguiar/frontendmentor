@@ -7,13 +7,13 @@ Este repositório contém uma coleção de projetos do Frontend Mentor, nos quai
 ## [3-column preview card component](/3-column%20preview%20card%20component)
 Um componente de cartão de visualização de três colunas, projetado para fornecer informações concisas e atraentes sobre produtos ou serviços.
 
-## [FAQ accordion card](/faq%accordion%card)
+## [FAQ accordion card](/faq%20accordion%20card)
 Um cartão interativo estilo "acordeão" com perguntas frequentes e suas respectivas respostas, que podem ser expandidas ou contraídas.
 
-## [Interactive rating component](/interactive%rating%component)
+## [Interactive rating component](/interactive%20rating%20component)
 Um componente de classificação interativo, permitindo que os usuários avaliem produtos ou serviços com uma interface intuitiva.
 
-## [NFT preview card component](https://github.com/seu_usuario/frontend-mentor-projects/tree/main/nft-preview-card-component)
+## [NFT preview card component](/nft%20preview%20card%20component)
 Um cartão de visualização de NFT (Non-Fungible Token), apresentando informações importantes sobre um NFT específico, como arte, preço e detalhes do criador.
 
 ## [Order summary component](https://github.com/seu_usuario/frontend-mentor-projects/tree/main/order-summary-component)
