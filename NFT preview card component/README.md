@@ -27,7 +27,7 @@ Os usuários devem ser capazes de:
 ### Links
 
 - URL da solução: [HTML](./index.html)
-- URL da solução: [CSS](./styles.css)
+- URL da solução: [CSS](./style.css)
 - URL do desafio no ar: [CODEPEN](https://codepen.io/davidsonaguiar/full/VwdBMBe)
 
 ## Construído com

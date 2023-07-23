@@ -31,7 +31,7 @@ Os usuários devem ser capazes de:
 ### Links
 
 - URL da solução: [HTML](./index.html)
-- URL da solução: [CSS](./styles.css)
+- URL da solução: [CSS](./style.css)
 - URL do desafio no ar: [REPLIT](https://order-summary-component.davidsonrogerio.repl.co)
 
 ## Construído com
