@@ -24,13 +24,10 @@ Os usuários devem ser capazes de:
 
 ![Imagem do projeto](./images/capture.png)
 
-
-
 ### Links
 
 - URL da solução: [HTML](./index.html)
 - URL da solução: [CSS](./styles.css)
-- URL da solução: [JS](./main.js)
 - URL do desafio no ar: [CODEPEN](https://codepen.io/davidsonaguiar/full/VwdBMBe)
 
 ## Construído com
@@ -38,7 +35,6 @@ Os usuários devem ser capazes de:
 - Marcação HTML5 semântica
 - Propriedades personalizadas CSS
 - Flexbox
-- JavaScript
 ## Autor
 
 - Website - [CODEPEN](https://codepen.io/davidsonaguiar)
