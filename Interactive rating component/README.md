@@ -35,8 +35,8 @@ Os usuários devem ser capazes de:
 
 ### Links
 
-- URL da solução: [Adicionar URL da solução aqui](https://your-solution-url.com)
-- URL do site ao vivo: [Adicione URL do site ao vivo aqui](https://your-live-site-url.com)
+- URL da solução: [GITHUB](/index.html)
+- URL do site ao vivo: [CODEPEN](https://codepen.io/davidsonaguiar/full/VwdBMBe)
 
 ## Meu processo
 
