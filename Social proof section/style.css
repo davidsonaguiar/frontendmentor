@@ -1,0 +1,189 @@
+    @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&display=swap');
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        text-decoration: none;
+        list-style: none;
+    }
+
+    *::after, *::before {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        text-decoration: none;
+        list-style: none;
+    }
+
+
+    :root {
+        --primary-color-dark-margenta: hsl(300, 43%, 22%);
+        --primary-color-Pink: hsl(333, 80%, 67%);
+        --secundary-color-dark-Magenta: hsl(303, 10%, 53%);
+        --secundary-color-light-Magenta: hsl(300, 24%, 96%);
+        --White: hsl(0, 0%, 100%);
+    }
+
+    body {
+        width: 100%;
+        height: 100%;
+        background: url(./images/bg-pattern-top-desktop.svg) left top no-repeat, 
+                    url(./images/bg-pattern-bottom-desktop.svg) right bottom no-repeat;
+        font: 15px 'League Spartan', sans-serif;
+    }
+
+    main {
+        width: clamp(320px, 100%, 1100px);
+        height: 100vh;
+        margin: 0 auto;
+
+        display: flex;
+        justify-content: space-between;
+        align-content: center;
+        flex-wrap: wrap;
+        gap: 24px;
+    }
+
+    main > div {
+        flex: 1 1 auto;
+        padding: 24px;
+    }
+
+    .title > h1 {
+        width: 100%;
+        max-width: 350px;
+        color: var(--primary-color-dark-margenta);
+        font-size: 48px;
+        font-weight: 700;
+        display: block;
+    }
+
+    .title > p {
+        width: 100%;
+        max-width: 380px;
+        margin-top: 24px;
+        color: var(--secundary-color-dark-Magenta);
+        font-size: 16px;
+        line-height: 1.3em;
+        font-weight: 500;
+        display: block;
+    }
+
+    .rateds-list {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .rateds-list-items {
+        width: 100%;
+        max-width: 375px;
+        padding: 16px 24px;
+        color: var(--primary-color-dark-margenta);
+        font-weight: 700;
+        background-color: var(--secundary-color-light-Magenta);
+        border-radius: 4px;
+        display: flex;  
+        align-items: center;
+        gap: 24px;
+    }
+
+    .rateds-list-items:last-of-type {
+        align-self: flex-end;
+    }
+
+    .rateds-list-items:nth-last-of-type(2) {
+        align-self: center;
+    }
+
+    .cards {
+        height: 270px;
+        display: flex;
+        justify-content: center;
+        align-content: auto;
+        flex-wrap: wrap;
+        gap: 12px;
+    }
+
+    .card-grid {
+        width: clamp(250px, 100%, 320px);
+        padding: 28px;
+        background-color: var(--primary-color-dark-margenta);
+        border-radius: 12px;
+        display: grid;
+        grid-template-columns: auto 1fr;
+        align-items: center;
+        grid-template-areas: 
+            "img name"
+            "blockquote blockquote";
+        gap: 24px;
+    }
+
+    .card-img {
+        width: 50px;
+        border-radius: 50%;
+        grid-area: img;
+    }
+
+    .card-name {
+        grid-area: name;
+    }
+
+    .card-name > h2 {
+        color: var(--secundary-color-light-Magenta);
+    }
+
+    .card-name > p {
+        color: var(--primary-color-Pink);
+    }
+
+    .card-content {
+        color: var(--secundary-color-light-Magenta);
+        line-height: 1.5;
+        grid-area: blockquote;
+    }
+
+
+    @media (max-width: 900px) {
+        main {
+            height: auto;
+        }
+
+        .title {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+        }
+    }
+
+
+
+
+    @media (max-width: 767px) {
+        .title > h1 {
+            text-align: center;
+        }
+
+        .title > p {
+            text-align: center;
+        }
+
+        .rateds-list {
+            justify-content: center;
+            gap: 12px;
+        }
+
+        .rateds-list-items {
+            flex-direction: column;
+        }
+    }
+
+    .attribution {
+        font-size: 11px;
+        text-align: center;
+    }
+
+    .attribution a {
+        color: hsl(228, 45%, 44%);
+    }

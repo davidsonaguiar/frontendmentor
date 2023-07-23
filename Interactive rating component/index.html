@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap" rel="stylesheet">
+
+  <title>Frontend Mentor | Interactive rating component</title>
+</head>
+<body>
+  <main>
+    <form class="container" id="form">
+      <img class="start" src="./images/icon-star.svg" alt="start orange">
+      <h1 class="title">How did we do?</h1>
+      <p class="paragraph">Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!</p>
+      <div class="inputs">
+        <input type="radio" id="one" name="resp" value="1" required>
+        <label for="one">1</label>
+        <input type="radio" id="two" name="resp" value="2">
+        <label for="two">2</label>
+        <input type="radio" id="tree" name="resp" value="3">
+        <label for="tree">3</label>
+        <input type="radio" id="for" name="resp" value="4">
+        <label for="for">4</label>
+        <input type="radio" id="five" name="resp" value="5">
+        <label for="five">5</label>
+      </div>
+      <button type="submit">Submit</button>
+    </form>
+    <div class="container display" id="modal">
+      <img class="thanks" src="./images/illustration-thank-you.svg" alt="thanks">
+      <p class="resp text-center">You selected <span id="resp"></span> out of 5</p>
+      <h2 class="title text-center">Thank you!</h2>
+      <p class="paragraph text-center">We appreciate you taking the time to give a rating. If you ever need more support, don’t hesitate to get in touch!</p>
+    </div>
+  </main>    
+  <footer class="attribution paragraph">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </footer>
+  <script src="./main.js"></script>
+</body>
+</html>

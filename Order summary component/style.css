@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+* { margin: 0; padding: 0; box-sizing: border-box;}
+*::after, *::before { margin: 0; padding: 0; box-sizing: border-box;}
+
+:root {
+    --Pale-blue: hsl(225, 100%, 94%);
+    --Bright-blue: hsl(245, 75%, 52%);
+    --Very-pale-blue: hsl(225, 100%, 98%);
+    --Desaturated-blue: hsl(224, 23%, 55%);
+    --Dark-blue: hsl(223, 47%, 23%);
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background: var(--Pale-blue) url(./images/pattern-background-desktop.svg) no-repeat top center;
+    background-size: contain;
+    font-family: 'Red Hat Display', sans-serif;
+    display: grid;
+    place-content: center;
+    grid-template-rows: 1fr auto;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 375px;
+    background-color: #FFF;
+    border-radius: 16px;
+    box-shadow: 0 5px 20px #849df56c;
+    overflow: hidden;
+}
+
+.card-img {
+    width: 100%;
+}
+
+.card-title {
+    margin: 24px 0 0; 
+    color: var(--Dark-blue);
+    text-align: center;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.card-desc {
+    width: 300px;
+    padding: 12px 0;
+    margin: 0 auto;
+    color: var(--Desaturated-blue);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.card-container-price {
+    width: 300px;
+    height: 70px;
+    margin: 12px auto;
+    padding: 12px;
+    background-color: var(--Very-pale-blue);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.card-plan {
+    font-size: 14px;
+    font-weight: 900;
+}
+
+.card-price {
+    color: var(--Desaturated-blue);
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.card-change {
+    color: var(--Bright-blue);
+    font-size: 14px;
+}
+
+.card-change:hover {
+    color: var(--Bright-blue);
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.card-button {
+    width: 300px;
+    margin: 0 auto;
+    padding: 12px;
+    border: none;
+    border-radius: 12px;
+    font-weight: 700;
+    cursor: pointer;
+    display: block;
+}
+
+.proceed {
+    margin: 24px auto 12px;
+    background-color: var(--Bright-blue);
+    color: var(--Very-pale-blue);
+    box-shadow: 0 10px 20px rgba(125, 138, 255, 0.567);
+    transition: 0.25s ease-in-out;
+}
+
+.proceed:hover {
+    box-shadow: 0 10px 20px 5px rgba(44, 82, 232, 0.43);
+    transform: translate(0, -5px);
+}
+
+.cancel {
+    background-color: transparent;
+    color: var(--Desaturated-blue);
+    margin: 0 auto 24px; 
+    transition: 0.25s ease-in-out;
+}
+
+.cancel:hover {
+    color: var(--Dark-blue);
+}
+
+.attribution {  padding: 12px; font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }

@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap');
+
+* {margin: 0; padding: 0; box-sizing: border-box;}
+*::after, *::before {margin: 0; padding: 0; box-sizing: border-box;}
+
+:root {
+    --Very-dark-blue: hsl(233, 47%, 7%);
+    --Dark-desaturated-blue: hsl(244, 38%, 16%);
+    --Soft-violet: hsl(277, 64%, 61%);
+    --White: hsl(0, 0%, 100%);
+    --Slightly-white-paragraph: hsla(0, 0%, 100%, 0.75);
+    --Slightly-white-headings: hsla(0, 0%, 100%, 0.6);
+}
+
+body { 
+    width: 100%; 
+    height: 100vh; 
+    background-color: var(--Very-dark-blue);
+}
+
+main {
+    height: 100%;
+    padding: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 900px;
+    background-color: var(--Dark-desaturated-blue);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+
+.card-content, .card-img {
+    width: 50%;
+    height: 100%;
+}
+
+.card-title {
+    width: 340px;
+    margin: 0 auto 24px;
+    color: var(--White);
+    font: 700 32px 'Inter';
+}
+
+.title-emphasy { color: var(--Soft-violet) }
+
+.card-desc {
+    width: 340px;
+    height: 120px;
+    margin: 0 auto;
+    color: var(--Slightly-white-paragraph);
+    font: 400 12px 'Lexend Deca';
+    line-height: 1.7;
+}
+
+.card-values {
+    width: 340px;
+    margin: 0 auto;
+    padding-right: 32px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.values {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.values-num {
+    color: var(--White);
+    font: 700 20px 'Inter';
+}
+
+.values-text {
+    color: var(--Slightly-white-headings);
+    font: 400 10px 'Inter';
+    text-transform: uppercase;
+}
+
+.card-img {
+    background-color: var(--Soft-violet);
+}
+
+.card-img> img { 
+    width: 100%; 
+    display: block; 
+    opacity: 0.8;
+    mix-blend-mode: multiply;
+}
+
+
+@media (max-width: 900px) {
+    main {
+        height: auto;
+    }
+
+    .card {
+        width: 375px;
+        flex-direction: column;
+    }
+
+    .card-img {
+        width: 100%;
+    }
+
+    .card-content {
+        width: 100%;
+        padding: 32px 0;
+        order: 2;
+    }
+
+    .card-title {
+        width: 300px;
+        text-align: center;
+    }
+
+    .card-desc {
+        width: 210px;
+        text-align: center;
+    }
+
+    .card-img {
+        order: 1;
+    }
+
+    .card-values {
+        align-items: center;
+        flex-direction: column;
+        gap: 24px;
+    }
+
+    .values {
+        align-items: center;
+    }
+}
+
+.attribution { padding: 12px; color: var(--White); font-size: 11px; text-align: center; }
+.attribution a { color: var(--Soft-violet); }

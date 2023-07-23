@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --Orange: hsl(25, 97%, 53%);
+    --White: hsl(0, 0%, 100%);
+    --Light-Grey: hsl(217, 12%, 63%);
+    --Medium-Grey: hsl(216, 12%, 54%);
+    --Dark-Blue: hsl(213, 19%, 18%);
+    --Very-Dark-Blue: hsl(216, 12%, 8%);
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: #111;
+    display: grid;
+    place-content: center;
+}
+
+main {
+    padding: 24px;
+}
+
+.container {
+    width: 100%;
+    max-width: 320px;
+    margin: auto;
+    padding: 24px;
+    background: linear-gradient(210deg, var(--Dark-Blue), var(--Very-Dark-Blue));
+    border-radius: 24px;
+}
+
+.start {
+    padding: 10px;
+    margin-bottom: 12px;
+    background-color: var(--Dark-Blue);
+    border-radius: 50%;
+}
+
+.resp {
+    margin: 0 auto 24px;
+    padding: 8px 12px;
+    background-color: var(--Dark-Blue);
+    border-radius: 50px;
+    color: var(--Orange);
+    font: 400 14px 'Overpass';
+    width: 200px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.title {
+    margin-bottom: 12px;
+    color: var(--White);
+    font: 700 20px 'Overpass';
+}
+
+.paragraph {
+    color: var(--Light-Grey);
+    font: 400 12px 'Overpass';
+    line-height: 1.6em;
+}
+
+.inputs {
+    margin: 24px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.inputs > label {
+    width: 40px;
+    height: 40px;
+    background-color: var(--Dark-Blue);
+    border-radius: 50%;
+    color: var(--Light-Grey);
+    font: 400 14px 'Overpass';
+    display: grid;
+    place-content: center;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+}
+
+.inputs > label:hover {
+    background-color: var(--Light-Grey);
+    color: var( --White);
+}
+
+.inputs > input:checked + label {
+    background-color: var(--Orange);
+    color: var( --White);
+}
+
+.container > button {
+    appearance: none;
+    width: 100%;
+    padding: 8px;
+    background-color: var(--Orange);
+    border: none;
+    border-radius: 50px;
+    color: var(--White);
+    font: 400 12px 'Overpass';
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+}
+
+.container > button:hover {
+    background-color: var(--White);
+    color: var(--Orange);
+    transform: translate(0, -3px);
+}
+
+.thanks {
+    width: 120px;
+    margin: 0 auto 24px;
+    display: block;
+}
+
+.display{
+    display: none;
+}
+
+.attribution {padding: 12px; font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
