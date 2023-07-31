@@ -18,25 +18,25 @@ Esta é uma solução para o [Product preview card component](https://www.fronte
 Os usuários devem ser capazes de:
 
 - Ver o layout ideal dependendo do tamanho da tela do dispositivo
-- Ver os estados de foco para elementos interativos
-
+- Ver os estados de foco e foco para elementos interativos
+  
 ### Captura de tela
 
 ![Imagem do projeto](./images/capture.png)
-
 
 
 ### Links
 
 - URL da solução: [HTML](./index.html)
 - URL da solução: [CSS](./style.css)
-- URL do desafio no ar: [CODEPEN](https://codepen.io/davidsonaguiar/full/qBKQgJy)
+- URL do desafio no ar: [CODEPEN](https://codepen.io/davidsonaguiar/full/yLEEZME)
 
 ## Construído com
 
 - Marcação HTML5 semântica
 - Propriedades personalizadas CSS
 - Flexbox
+  
 ## Autor
 
 - Website - [CODEPEN](https://codepen.io/davidsonaguiar)
