@@ -1,5 +1,3 @@
-Claro! Aqui está o README atualizado, com os títulos sendo links para as páginas de cada projeto:
-
 # Frontend Mentor Projects
 
 Este repositório contém uma coleção de projetos do Frontend Mentor, nos quais implementei soluções criativas e interativas. Cada projeto tem como objetivo praticar minhas habilidades de desenvolvimento frontend e aprimorar meu conhecimento em HTML, CSS e JavaScript. Abaixo estão os projetos incluídos neste repositório:
