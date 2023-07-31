@@ -22,7 +22,7 @@ Os usuários devem ser capazes de:
   
 ### Captura de tela
 
-![Imagem do projeto](./images/capiture.jpeg)
+![Imagem do projeto](./images/capiture.png)
 
 
 ### Links
