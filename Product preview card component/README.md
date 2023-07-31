@@ -22,7 +22,7 @@ Os usuários devem ser capazes de:
   
 ### Captura de tela
 
-![Imagem do projeto](./images/Opera Instantâneo_2023-07-31_102409_codepen.io.png)
+![Imagem do projeto](./images/Opera%20Instantâneo%202023-07-31%20102409%20codepen.io.png)
 
 
 ### Links
