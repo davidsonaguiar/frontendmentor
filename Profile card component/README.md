@@ -1,6 +1,6 @@
 # Frontend Mentor - Profile card component
 
-Esta é uma solução para o [Product preview card component](https://www.frontendmentor.io/solutions/profile-card-component-pzgQS3EVpP). Os desafios do Frontend Mentor ajudam você a melhorar suas habilidades de codificação criando projetos realistas.
+Esta é uma solução para o [Profile card component](https://www.frontendmentor.io/solutions/profile-card-component-pzgQS3EVpP). Os desafios do Frontend Mentor ajudam você a melhorar suas habilidades de codificação criando projetos realistas.
 
 ## Índice
 
