@@ -18,7 +18,6 @@ Esta é uma solução para o [Profile card component](https://www.frontendmentor
 Os usuários devem ser capazes de:
 
 - Ver o layout ideal dependendo do tamanho da tela do dispositivo
-- Ver os estados de foco e foco para elementos interativos
   
 ### Captura de tela
 
