@@ -1,6 +1,6 @@
-# Frontend Mentor - Social proof section
+# Frontend Mentor - Stats preview card component
 
-Esta é uma solução para o [Social proof section](https://www.frontendmentor.io/challenges/social-proof-section-6e0qTv_bA/hub). Os desafios do Frontend Mentor ajudam você a melhorar suas habilidades de codificação criando projetos realistas.
+Esta é uma solução para o [Stats preview card component](https://www.frontendmentor.io/challenges/stats-preview-card-component-8JqbgoU62/hub). Os desafios do Frontend Mentor ajudam você a melhorar suas habilidades de codificação criando projetos realistas.
 
 ## Índice
 
@@ -28,7 +28,7 @@ Os usuários devem ser capazes de:
 
 - URL da solução: [HTML](./index.html)
 - URL da solução: [CSS](./style.css)
-- URL do desafio no ar: [REPLIT](https://social-proof-section.davidsonrogerio.repl.co)
+- URL do desafio no ar: [REPLIT](https://stats-preview-card-component.davidsonrogerio.repl.co)
 
 ## Construído com
 
