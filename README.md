@@ -2,7 +2,7 @@
 
 Este repositório contém uma coleção de projetos do Frontend Mentor, nos quais implementei soluções criativas e interativas. Cada projeto tem como objetivo praticar minhas habilidades de desenvolvimento frontend e aprimorar meu conhecimento em HTML, CSS e JavaScript. Abaixo estão os projetos incluídos neste repositório:
 
-## [3-column preview card component](/3-column%20preview%20card%20component)
+## [3-column preview card component](./3-column%20preview%20card%20component/index.html)
 Um componente de cartão de visualização de três colunas, projetado para fornecer informações concisas e atraentes sobre produtos ou serviços.
 
 ## [FAQ accordion card](/FAQ%20accordion%20card)
