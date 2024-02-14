@@ -182,15 +182,16 @@ button > img {
   margin-top: 40px;
 }
 
-p {
+.paragraphs > span {
   font-size: 6rem;
   font-weight: var(--font-weight-bold);
   color: var(--text-color-base);
   font-style: italic;
   line-height: 100%;
+  display: block;
 }
 
-.paragraphs span {
+.paragraphs > span > span {
   color: var(--primary-color);
 }
 
