@@ -124,6 +124,7 @@ body {
   margin-bottom: 8px;
   display: flex;
   flex-direction: column;
+  align-items: flex-end;
 }
 
 .main-balance__last-month__text {
@@ -213,4 +214,9 @@ body {
   from {
     height: 0;
   }
+}
+
+hr {
+  margin-bottom: 1.5rem;
+  border: 1px solid #e5e5e5;
 }
