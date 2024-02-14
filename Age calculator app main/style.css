@@ -178,11 +178,8 @@ button > img {
   max-height: 24px;
 }
 
-.paragraphs {
+.title {
   margin-top: 40px;
-}
-
-.paragraphs > span {
   font-size: 6rem;
   font-weight: var(--font-weight-bold);
   color: var(--text-color-base);
@@ -191,7 +188,11 @@ button > img {
   display: block;
 }
 
-.paragraphs > span > span {
+.block {
+  display: block;
+}
+
+.values {
   color: var(--primary-color);
 }
 
