@@ -5,6 +5,12 @@ Este repositório contém uma coleção de projetos do Frontend Mentor, nos quai
 ## [3-column preview card component](./3-column%20preview%20card%20component/index.html)
 Um componente de cartão de visualização de três colunas, projetado para fornecer informações concisas e atraentes sobre produtos ou serviços.
 
+## [Age calculator app](./Age%20calculator%20app%20main/index.html)
+Age calculator é um aplicativo simples e eficiente projetado para ajudá-lo a calcular a idade de uma pessoa de forma rápida e fácil. Com uma interface intuitiva e amigável, o Age calculator permite que você insira a data de nascimento de uma pessoa e obtenha instantaneamente sua idade atual em anos, meses e dias.
+
+## [Expenses chart component](./Expenses%20chart%20component/index.html)
+O ExpenseChart é um componente altamente funcional que permite aos usuários visualizar e analisar seus gastos de maneira clara e informativa.
+
 ## [FAQ accordion card](/FAQ%20accordion%20card)
 Um cartão interativo estilo "acordeão" com perguntas frequentes e suas respectivas respostas, que podem ser expandidas ou contraídas.
 
@@ -25,6 +31,9 @@ Um componente que exibe o perfil de um usuário, mostrando sua foto, nome, cargo
 
 ## [QR code component](/QR%20code%20component)
 Um componente que gera e exibe um código QR para uma determinada informação, tornando mais fácil compartilhá-la com outros dispositivos.
+
+## [Social media dashboard](/Social%20media%20dashboard)
+um componente versátil que oferece uma visão abrangente das métricas e atividades das redes sociais, combinado com um interruptor de tema para personalizar a experiência do usuário. 
 
 ## [Social proof section](/Social%20proof%20section)
 Uma seção que exibe depoimentos ou avaliações de clientes, ajudando a construir confiança e credibilidade para o produto ou serviço.
