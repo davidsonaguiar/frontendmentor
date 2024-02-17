@@ -34,6 +34,32 @@ main {
   border-radius: 1rem;
 }
 
+.loading-text {
+  display: none;
+}
+
+.loading .loading-text {
+  display: block;
+  color: var(--text-light);
+  font-size: 1.5rem;
+  text-align: center;
+  margin-bottom: 2rem;
+  animation-name: loading;
+  animation-duration: 2s;
+}
+
+@keyframes loading {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(0.75);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
 .title {
   margin-bottom: 1.5rem;
   color: var(--text);
@@ -43,12 +69,20 @@ main {
   letter-spacing: 0.35rem;
 }
 
+.loading .title {
+  display: none;
+}
+
 .advice {
   width: 450px;
   margin-bottom: 2rem;
   color: var(--text-light);
   font-size: 2rem;
   text-align: center;
+}
+
+.loading .advice {
+  display: none;
 }
 
 div {
