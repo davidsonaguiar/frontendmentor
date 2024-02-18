@@ -1,99 +1,92 @@
-@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap");
 
-* { margin: 0; padding: 0; box-sizing: border-box; } 
-*::after, *::after { margin: 0; padding: 0; box-sizing: border-box; } 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 
 :root {
-    --Bright-orange: hsl(31, 77%, 52%);
-    --Dark-cyan: hsl(184, 100%, 22%);
-    --Very-dark-cyan: hsl(179, 100%, 13%);
-    --Transparent-white: hsla(0, 0%, 100%, 0.75);
-    --Very-light-gray: hsl(0, 0%, 95%);
+  --Bright-orange: hsl(31, 77%, 52%);
+  --Dark-cyan: hsl(184, 100%, 22%);
+  --Very-dark-cyan: hsl(179, 100%, 13%);
+  --Transparent-white: hsla(0, 0%, 100%, 0.75);
+  --Very-light-gray: hsl(0, 0%, 95%);
+  --card-bg: hsl(0, 0%, 100%);
+  --button-color: hsl(0, 0%, 100%);
 }
 
 body {
-    width: 100%;
-    height: 100vh;
-    padding: 24px;
-    background-color: var(--Very-light-gray);
-    font-size: 15px;
-    display: grid;
-    place-content: center;
-    grid-template-rows: 1fr auto;
+  width: 100%;
+  height: 100vh;
+  padding: 24px;
+  background-color: var(--Very-light-gray);
+  font-size: 15px;
+  display: grid;
+  place-content: center;
 }
 
-.orange-bg {background-color: var(--Bright-orange);}
-.cyan-bg {background-color: var(--Dark-cyan);}
-.very-cyan-bg {background-color: var(--Very-dark-cyan);}
-
-.orange-c {color: var(--Bright-orange);}
-.cyan-c {color: var(--Dark-cyan);}
-.very-cyan-c {color: var(--Very-dark-cyan);}
+.orange {
+  --card-bg: var(--Bright-orange);
+  --button-color: var(--Bright-orange);
+}
+.cyan {
+  --card-bg: var(--Dark-cyan);
+  --button-color: var(--Dark-cyan);
+}
+.very-cyan {
+  --card-bg: var(--Very-dark-cyan);
+  --button-color: var(--Very-dark-cyan);
+}
 
 main {
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
+  width: 100%;
+  max-width: 900px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  overflow: hidden;
 }
 
 .card {
-    width: 300px;
-    padding: 44px;
+  padding: 44px;
+  background-color: var(--card-bg);
+  flex: 1 1 300px;
 }
 
-.card:first-of-type {
-    border-radius: 8px 0 0 8px;
+img {
+  width: 50px;
 }
-
-.card:last-of-type {
-    border-radius: 0 8px 8px 0;
-}
-
-img { width: 50px;}
 
 .card-title {
-    margin: 32px 0;
-    color: var(--Very-light-gray);
-    font: 700 2.3em 'Big Shoulders Display', cursive;
-    text-transform: uppercase;
+  margin: 32px 0;
+  color: var(--Very-light-gray);
+  font: 700 2.3em "Big Shoulders Display", cursive;
+  text-transform: uppercase;
 }
 
 .card-description {
-    margin-bottom: 100px;
-    color: var(--Transparent-white);
-    font: 400 1em 'Lexend Deca', sans-serif;
-    line-height: 1.5em;
+  margin-bottom: 100px;
+  color: var(--Transparent-white);
+  font: 400 1em "Lexend Deca", sans-serif;
+  line-height: 1.5em;
 }
 
 .card-button {
-    appearance: none;
-    padding: 8px 20px;
-    background-color: var(--Very-light-gray);
-    border: none;
-    border-radius: 100px;
-    font: 400 1em 'Lexend Deca', sans-serif;
-    cursor: pointer;
+  width: 130px;
+  height: 36px;
+  background-color: var(--Very-light-gray);
+  border: none;
+  border-radius: 100px;
+  color: var(--button-color );
+  font: 400 1em "Lexend Deca", sans-serif;
+  cursor: pointer;
 }
 
-.attribution { height: 50px ; font-size: 11px; text-align: center; line-height: 50px; }
-.attribution a { color: hsl(228, 45%, 44%); }
-
-@media (max-width: 960px) {
-    body {
-        height: auto;
-    }
-
-    main {
-        flex-direction: column;
-    }
-
-    .card:first-of-type {
-        border-radius: 8px 8px 0 0;
-    }
-    
-    .card:last-of-type {
-        border-radius: 0 0 8px 8px;
-    }
+.card-button:hover {
+  background-color: transparent;
+  border: 2px solid var(--Very-light-gray);
+  color: var(--Very-light-gray);
 }
