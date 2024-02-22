@@ -20,7 +20,6 @@
   font-size: 14px;
 }
 
-html,
 body {
   width: 100%;
   min-height: 100vh;
@@ -33,7 +32,6 @@ body {
 main {
   width: 100%;
   max-width: 375px;
-  margin: auto;
   padding: 3rem;
   background-color: var(--secondary);
   border-radius: 0.85rem;
@@ -61,17 +59,17 @@ h1 {
   font-weight: 700;
 }
 
-h2 {
+p {
+  margin: 1rem 0 1.5rem;
+}
+
+p:first-of-type {
   color: var(--primary-color);
 }
 
-h2 {
+p:first-of-type {
   font-size: 1.1rem;
   font-weight: 600;
-}
-
-p {
-  margin: 1rem 0 1.5rem;
 }
 
 menu {
@@ -96,4 +94,9 @@ li:not(:last-child) {
 li:hover {
   background-color: var(--primary-color);
   color: var(--secondary);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
 }
