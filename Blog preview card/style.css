@@ -39,6 +39,7 @@ body {
   max-width: 320px;
   padding: 1rem;
   background-color: var(--neutral-light);
+  border: 1px solid var(--neutral-dark);
   border-radius: 1rem;
   box-shadow: 10px 10px 0 var(--neutral-dark);
   display: flex;
