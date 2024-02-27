@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --Desaturated-Red: hsl(0, 36%, 70%);
+  --Soft-Red: hsl(0, 93%, 68%);
+  --Dark-Grayish-Red: hsl(0, 6%, 24%);
+  --gradient-1: linear-gradient(135deg, from hsl(0, 0%, 100%), to hsl(0, 100%, 98%));
+  --gradient-2: linear-gradient(135deg, from hsl(0, 80%, 86%), to hsl(0, 74%, 74%));
+  --fw-light: 300;
+  --fw-normal: 400;
+  --fw-bold: 600;
+
+  font: 400 16px "Josefin Sans", sans-serif;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+}
+
+.header {
+  height: fit-content;
+  padding: 2rem;
+}
+
+.header_logo {
+  max-height: 24px;
+  display: block;
+}
+
+.hero {
+  width: 100%;
+  height: 250px;
+}
+
+.hero_image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
