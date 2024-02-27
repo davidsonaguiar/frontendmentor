@@ -37,7 +37,6 @@ Uma pagina com listas de tempo de preparo, ingredientes e passo a passo de uma r
 
 ## [Results summary component](/Results%20summary%20component)
 
-
 ## [Social media dashboard](/Social%20media%20dashboard)
 um componente versátil que oferece uma visão abrangente das métricas e atividades das redes sociais, combinado com um interruptor de tema para personalizar a experiência do usuário. 
 

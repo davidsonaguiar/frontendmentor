@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Article preview component</title>
+</head> 
+<body>
+  <main>
+    <article class="card">
+      <div class="card_container-image">
+        <img class="card_container-image_image" src="./images/drawers.jpg" alt="furniture">
+      </div>
+      <div class="card_container-content-aside">
+        <div class="card_container-content">
+          <h2 class="card_container-content_title">
+            Shift the overall look and feel by adding these wonderful 
+            touches to furniture in your home
+          </h2>
+          <p class="card_container-content_description">
+            Ever been in a room and felt like something was missing? Perhaps 
+            it felt slightly bare and uninviting. I’ve got some simple tips 
+            to help you make any room feel complete.
+          </p>
+        </div>
+        <aside class="card_container-aside">
+          <div class="card_container-aside_meta">
+            <img class="card_container-aside_meta_avatar" src="./images/avatar-michelle.jpg" alt="avatar-user">
+            <div class="card_container-aside_meta_datas">
+              <h3 class="card_container-aside_meta_datas_user">Michelle Appleton</h3>
+              <p class="card_container-aside_meta_datas_date">28 Jun 2020</p>
+            </div>
+          </div>
+          <button id="share-button" class="card_container-aside_share">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="#6E8098" width="15" height="13">
+              <path d="M15 6.495L8.766.014V3.88H7.441C3.33 3.88 0 7.039 0 10.936v2.049l.589-.612C2.59 10.294 5.422 9.11 8.39 9.11h.375v3.867L15 6.495z"/>
+            </svg>
+          </button>
+          <div class="card_container-share hidden" id="share">
+            <span class="card_container-share_text-share">Share</span>
+            <menu class="card_container-share_menu">
+              <li>
+                <a href="#">
+                  <img src="./images/icon-facebook.svg" alt="icon-facebook">
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src="./images/icon-twitter.svg" alt="icon-twitter">
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src="./images/icon-pinterest.svg" alt="icon-pinterest">
+                </a>
+              </li>
+            </menu>
+          </div>
+        </aside>
+      </div>
+    </article>
+  </main>
+  <script src="main.js"></script>
+</body>
+</html>
