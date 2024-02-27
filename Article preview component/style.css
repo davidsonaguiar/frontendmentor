@@ -183,6 +183,12 @@ menu {
   display: none;
 }
 
+.share-text-hidden {
+  width: 0;
+  height: 0;
+  overflow: hidden;
+  position: absolute;
+}
 
 @media (max-width: 765px) {
   .card {
