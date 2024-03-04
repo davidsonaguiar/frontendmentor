@@ -9,25 +9,28 @@
 </head>
 <body>
   <header class="header">
-    <img class="header_logo" src="./images/logo.svg" alt="Base Apparel Logo">
+    <img class="logo" src="./images/logo.svg" alt="logo">
   </header>
-  <div class="hero">
-    <img class="hero_image" src="./images/hero-desktop.jpg" alt="Hero Image">
-  </div>
+  <div class="hero"></div>
   <main class="main">
-    <h1 class="main_title">
-      <span class="main_title-desaturate">We're</span>
+    <h1 class="title">
+      <span class="desaturate">We´re </span>
       coming soon
     </h1>
-    <p class="main_text">Hello fellow shoppers! We're currently building our new fashion store. 
-      Add your email below to stay up-to-date with announcements and our launch deals.</p>
-    <form action="#" class="main_form">
-      <imput class="main_form_field" type="email" id="email" name="email" placeholder="Email Address">
-      <button class="main_form_submit" type="submit">
-        <span class="hidden-acs">Notify Me</span>
-        <img src="./images/icon-arrow.svg" alt="">
+    <p class="paragraph">Hello fellow shoppers! We´re currently building our new fashion store. Add your email below to stay up-to-date with announcements and our launch deals.</p>
+    <form action="#" method="post" class="form">
+      <input type="email" placeholder="Email Address" class="input" required>
+      <span class="icon-error">
+        <img src="./images/icon-error.svg" alt="" class="error-icon">
+      </span>
+      <button type="submit" class="button">
+        <span class="hidden-acs">
+          Notify Me
+        </span>
+        <img src="./images/icon-arrow.svg" alt="" class="button-icon">
       </button>
     </form>
+    <span class="error">Please provide a valid email</span>
   </main>
 </body>
 </html>
