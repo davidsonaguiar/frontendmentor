@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Intro component with sign up form</title>
+</head>
+<body>
+  <main class="app">
+    <section class="app__sections">
+      <h1 class="app__title">Learn to code by watching others</h1>
+      <p class="app__text">See how experienced developers solve problems in real-time. Watching scripted tutorials is great, 
+        but understanding how developers think is invaluable. </p>
+    </section>
+    <section class="app__sections">
+      <h2 class="app__price">Try it free 7 days <span class="fw-normal">then $20/mo. thereafter</span></h2>
+      <form class="app__form" id="form">
+        <div class="app__input__wrapper">
+          <input class="app__form__fields" type="text" name="firstName" placeholder="First Name">
+          <span class="app__form__input__erro">
+            First name must be between 2 and 100 characters and only contain letters
+          </span>
+        </div>
+        <div class="app__input__wrapper">
+          <input class="app__form__fields" type="text" name="lastName" placeholder="Last Name">
+          <span class="app__form__input__erro">
+            First name must be between 2 and 100 characters and only contain letters
+          </span>
+        </div>
+        <div class="app__input__wrapper">
+          <input class="app__form__fields" type="email" name="email" placeholder="Email Address">
+          <span class="app__form__input__erro">
+            Email address must be valid
+          </span>
+        </div>
+        <div class="app__input__wrapper">
+          <input class="app__form__fields" type="password" name="password" placeholder="Password">
+          <span class="app__form__input__erro">
+            Password must only contain letters and numbers
+          </span>
+        </div>
+        <button type="submit" class="app__form__button">Claim your free trial</button>
+        <p class="app__form__term">By clicking the button, you are agreeing to our <a href="#">Terms and Services</a></p>
+      </form>
+  </main>  
+  <script src="main.js"></script>
+</body>
+</html>
