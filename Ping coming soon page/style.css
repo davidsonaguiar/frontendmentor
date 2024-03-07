@@ -162,3 +162,11 @@ body {
 .footer__list-media-social__media:hover ion-icon {
   color: white;
 }
+
+.hidden-acs {
+  color: transparent;
+  width: 0;
+  height: 0;
+  overflow: hidden;
+  position: absolute;
+}
