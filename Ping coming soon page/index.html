@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Ping coming soon page</title>
+</head>
+<body>
+  <header class="header">
+    <img src="./images/logo.svg" alt="Ping logo">
+  </header>
+  <main class="app">
+    <h1 class="app__title">We are launching <span class="app__title-strong">soon!</span></h1>
+    <p class="app__text">Subscribe and get notified</p>
+    <form id="form" class="app__form">
+      <input id="email" class="app__input" type="email" placeholder="Your email address...">
+      <button class="app__button" type="submit">Notify Me</button>
+      <p id="error" class="app__error">Please provide a valid address</p>
+    </form>
+    <div class="app__dashboard-image">
+      <img src="./images/illustration-dashboard.png" alt="Dashboard illustration">
+    </div>
+  </main>
+  <footer class="footer">
+    <ul class="footer__list-media-social">
+      <li>
+        <a class="footer__list-media-social__media" href="#">
+          <ion-icon name="logo-facebook"></ion-icon>
+        </a>
+      </li>
+      <li>
+        <a href="#" class="footer__list-media-social__media">
+          <ion-icon name="logo-twitter"></ion-icon>
+        </a>
+      </li>
+      <li>
+        <a href="#" class="footer__list-media-social__media">
+          <ion-icon size="45px" name="logo-instagram"></ion-icon>
+        </a>
+      </li>
+    </ul>
+    <p class="footer__text">&copy; Copyright Ping. All rights reserved.</p>
+  </footer>  
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  <script src="./main.js"></script>
+</body>
+</html>
