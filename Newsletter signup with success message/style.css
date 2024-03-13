@@ -53,12 +53,13 @@ body {
 }
 
 .app__title {
-  font-size: 2rem;
+  font-size: 2.4rem;
   font-weight: var(--fw-bold);
   margin-bottom: 1.5rem;
 }
 
 .app__text {
+  font-size: 1.025rem;
   margin-bottom: 2rem;
 }
 
@@ -71,6 +72,69 @@ body {
 }
 
 .app__form {
+  width: 100%;
   display: flex;
   flex-direction: column;
+}
+
+.app__form label {
+  width: 100%;
+  margin-bottom: 0.5rem;
+  font-size: 0.875rem;
+  font-weight: var(--fw-bold);
+}
+
+.app__form input {
+  width: 100%;
+  padding: 1.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid var(--grey);
+  border-radius: 0.5rem;
+  font-size: 0.875rem;
+}
+
+.app__form button {
+  width: 100%;
+  padding: 1.5rem 0;
+  background-color: var(--charcoal-grey);
+  border: none;
+  border-radius: 0.5rem;
+  color: var(--white);
+  font-size: 1rem;
+  font-weight: var(--fw-bold);
+  cursor: pointer;
+}
+
+@media (min-width: 375px) {
+  .app__hero {
+    background-image: url(./assets/images/illustration-sign-up-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+}
+
+@media (min-width: 768px) {
+  .app {
+    max-width: 900px;
+    min-height: auto;
+    padding: 2rem;
+    border-radius: 1.5rem;
+    flex-direction: row;
+    align-items: stretch;
+  }
+
+  .app__hero {
+    width: 50%;
+    min-height: 593px;
+    background-image: url(./assets/images/illustration-sign-up-desktop.svg);
+    border-radius: 1.5rem;
+  }
+
+  .app__content {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
 }
